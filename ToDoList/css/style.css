@@ -1,0 +1,28 @@
+body{
+    
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: monospace;
+
+}
+
+button{
+    background-color: blue;
+    color:solid black;
+}
+
+ul{
+    padding: 0;
+}
+
+.delete{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: solid black;
+    background-color: red;
+    border-radius: 20px;
+}

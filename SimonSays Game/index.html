@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon Says Game</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-   <h1>Simon Says Game</h1> 
-   <h2>Press any Key to start the Game</h2>
+    <div class="main">
+        <button class="btn-Goback"> <a href="../index.html" style="text-decoration: none;">Go Back</a> </button>
+        <h1>Simon Says Game</h1>
+        <br>
+        <p id="gameOver"></p>
+        <br>
+        <br>
+        <h2>Press any Key to start the Game </h2>
+        <br>
+        
 
-   <div class="btn-container">
-    <div class="btn1 btn " type="button" >btn1</div>
-    <div class="btn2 btn " type="button">btn2</div>
-    <div class="btn3 btn " type="button">btn3</div>
-    <div class="btn4 btn " type="button">btn4</div>
+        <div class="btn-container">
+            <div class="btn1 btn " type="button" id="btn1">btn1</div>
+            <div class="btn2 btn " type="button" id="btn2">btn2</div>
+            <div class="btn3 btn " type="button" id="btn3">btn3</div>
+            <div class="btn4 btn " type="button" id="btn4">btn4</div>
 
-   </div>
-   
-   <script src="js/app.js"></script>
+        </div>
+
+        <br>
+        <p class="score" id="score"></p>
+    </div>
+    <script src="js/app.js"></script>
 </body>
+
 </html>

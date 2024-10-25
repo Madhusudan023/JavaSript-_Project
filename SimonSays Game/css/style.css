@@ -1,25 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     text-align: center;
     align-items: center;
     justify-content: center;
     align-content: center;
-    margin: auto;
 }
 .btn{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 20%;
     margin: auto;
     border: 10px solid black;
 }
 
+h1{
+    background-color: #010138;
+    line-height: 5rem;
+    color: #fff;
+    margin-bottom: 1%;
+
+}
+
+p{
+    
+   padding: 0.2rem;
+   display: inline;
+   font-weight: 600;
+}
+
+.score{
+    margin-top: 1rem;
+}
+
 .btn-container{
-    width: 480px;
-    height: 480px;
+    width: 400px;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 35%;
    
    
 }
@@ -45,3 +68,20 @@ body{
 {
   background-color: green;
 }
+
+.out{
+    background-color: red;
+}
+
+.btn-Goback{
+    position: absolute;
+    right: 0 ;
+    top: 2%;
+    background-color: aqua;
+    font-weight: 900;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+
+

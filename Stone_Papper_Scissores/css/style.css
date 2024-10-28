@@ -71,6 +71,16 @@ img{
     border-radius: 1rem;
 }
 
+#msg2{
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: #010138;
+    color: #fff;
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
 .btn-Goback{
     position: absolute;
     right: 0 ;
